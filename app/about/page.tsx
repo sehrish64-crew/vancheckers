@@ -31,7 +31,7 @@ const whyChooseUs = [
     icon: ShieldCheck,
     title: 'Digital Reports, Not Inspections',
     description:
-      'CheckMyVan provides Digital PDF Reports only. No technician visit, physical inspection, or vehicle testing is included.',
+      'VanCheckers provides Digital PDF Reports only. No technician visit, physical inspection, or vehicle testing is included.',
   },
   {
     icon: Search,
@@ -125,7 +125,7 @@ export default function AboutPage() {
               Driven by Transparency, Built on Trust
             </h1>
             <p className="text-sm sm:text-lg text-white/70 leading-relaxed max-w-2xl">
-              CheckMyVan provides Digital PDF Reports for vans, campervans, and
+              VanCheckers provides Digital PDF Reports for vans, campervans, and
               motorhomes. Orders are digital only: we do not physically inspect,
               test, or visit vehicles.
             </p>
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed">
                   <p>
-                    CheckMyVan provides digital reports for vans, campervans, and
+                    VanCheckers provides digital reports for vans, campervans, and
                     motorhomes. Choose a report based on the vehicle type and the
                     information you need.
                   </p>
@@ -292,7 +292,7 @@ export default function AboutPage() {
       <section className="py-14 sm:py-24 bg-navy">
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            eyebrow="Why CheckMyVan"
+            eyebrow="Why VanCheckers"
             title="Why Customers Choose Us"
             description="Clear Digital PDF Reports for your vehicle. We do not provide physical inspections or testing."
             light
@@ -318,7 +318,7 @@ export default function AboutPage() {
       <section className="py-14 sm:py-20 bg-primary">
         <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-xl sm:text-4xl font-bold font-display leading-tight text-white mb-3 sm:mb-4 text-balance">
-            Experience the CheckMyVan Difference
+            Experience the VanCheckers Difference
           </h2>
           <p className="text-sm sm:text-lg text-white/80 mb-5 sm:mb-8">
             Get a clearer picture of your van, campervan, or motorhome before making your next decision.

@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: [],
     },
-    sitemap: 'https://checkmyvan.com/sitemap.xml',
-    host: 'https://checkmyvan.com',
+    sitemap: 'https://vancheckers.com/sitemap.xml',
+    host: 'https://vancheckers.com',
   };
 }

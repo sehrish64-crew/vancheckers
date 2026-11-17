@@ -1,4 +1,4 @@
-# CheckMyVan
+# VanCheckers
 
 Digital PDF Reports for vans, campervans, and motorhomes. Physical inspections and vehicle testing are not provided.
 

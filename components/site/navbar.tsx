@@ -43,7 +43,7 @@ export function Navbar() {
       >
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            <Link href="/" aria-label="CheckMyVan home" className="shrink-0">
+            <Link href="/" aria-label="VanCheckers home" className="shrink-0">
               <BrandLogo variant={scrolled ? 'dark' : 'light'} />
             </Link>
 

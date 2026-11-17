@@ -128,7 +128,7 @@ const faqs = [
   {
     question: 'Do you physically inspect vehicles?',
     answer:
-      'No. CheckMyVan provides Digital PDF Reports only. We do not visit, test, or physically inspect vehicles.',
+      'No. VanCheckers provides Digital PDF Reports only. We do not visit, test, or physically inspect vehicles.',
   },
   {
     question: 'How do I order a report?',

@@ -12,10 +12,10 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://checkmyvan.com'),
+  metadataBase: new URL('https://vancheckers.com'),
   title: {
-    default: 'CheckMyVan — Digital PDF Vehicle Reports',
-    template: '%s | CheckMyVan',
+    default: 'VanCheckers — Digital PDF Vehicle Reports',
+    template: '%s | VanCheckers',
   },
   description:
     'Digital PDF Reports for vans, campervans, and motorhomes. Choose pre-purchase, safety, diagnostics, or habitation topics and receive your report by email. No physical inspection included.',
@@ -25,29 +25,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    siteName: 'CheckMyVan',
-    title: 'CheckMyVan — Digital PDF Vehicle Reports',
+    siteName: 'VanCheckers',
+    title: 'VanCheckers — Digital PDF Vehicle Reports',
     description:
       'Digital PDF Reports for vans, campervans, and motorhomes. Choose pre-purchase, safety, diagnostics, or habitation topics and receive your report by email. No physical inspection included.',
-    url: 'https://checkmyvan.com',
+    url: 'https://vancheckers.com',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: 'CheckMyVan — Digital PDF Reports for vans, campervans and motorhomes',
+        alt: 'VanCheckers — Digital PDF Reports for vans, campervans and motorhomes',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'CheckMyVan — Digital PDF Vehicle Reports',
+    title: 'VanCheckers — Digital PDF Vehicle Reports',
     description:
       'Digital PDF Reports for vans, campervans, and motorhomes. Choose pre-purchase, safety, diagnostics, or habitation topics and receive your report by email. No physical inspection included.',
     images: [
       {
         url: '/opengraph-image',
-        alt: 'CheckMyVan — Digital PDF Reports for vans, campervans and motorhomes',
+        alt: 'VanCheckers — Digital PDF Reports for vans, campervans and motorhomes',
       },
     ],
   },

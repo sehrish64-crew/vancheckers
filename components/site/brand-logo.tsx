@@ -22,7 +22,7 @@ export function BrandLogo({ variant = 'light' }: BrandLogoProps) {
             isLight ? 'text-white' : 'text-navy'
           }`}
         >
-          CheckMy<span className="text-primary">Van</span>
+          Van<span className="text-primary">Checkers</span>
         </span>
       </span>
     </span>

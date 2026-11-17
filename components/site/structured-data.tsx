@@ -2,11 +2,11 @@ export function StructuredData() {
   const organization = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'CheckMyVan',
+    name: 'VanCheckers',
     description:
       'Digital PDF Reports for vans, campervans, and motorhomes. No physical vehicle inspection or testing is included.',
-    url: 'https://checkmyvan.com',
-    email: 'info@checkmyvan.com',
+    url: 'https://vancheckers.com',
+    email: 'info@vancheckers.com',
   };
 
   const faqPage = {
@@ -34,7 +34,7 @@ export function StructuredData() {
         name: 'Do you physically inspect vehicles?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'No. CheckMyVan provides Digital PDF Reports only. We do not visit, test, or physically inspect vehicles.',
+          text: 'No. VanCheckers provides Digital PDF Reports only. We do not visit, test, or physically inspect vehicles.',
         },
       },
       {

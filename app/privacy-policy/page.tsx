@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'How CheckMyVan collects, uses, and protects personal data when you order a Digital PDF Report.',
+    'How VanCheckers collects, uses, and protects personal data when you order a Digital PDF Report.',
   alternates: { canonical: '/privacy-policy' },
   robots: { index: true, follow: true },
 };
@@ -19,9 +19,9 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold font-display text-navy mb-3">1. Who We Are</h2>
             <p>
-              CheckMyVan provides Digital PDF Reports for vans, campervans, and
+              VanCheckers provides Digital PDF Reports for vans, campervans, and
               motorhomes. We do not provide physical inspections or vehicle testing.
-              You can contact us at info@checkmyvan.com.
+              You can contact us at info@vancheckers.com.
             </p>
           </section>
 
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
             <p>
               Under the UK General Data Protection Regulation (UK GDPR), you have the right to
               access, correct, or delete your personal data, and to object to or restrict certain
-              processing. To exercise these rights, contact us at info@checkmyvan.com.
+              processing. To exercise these rights, contact us at info@vancheckers.com.
             </p>
           </section>
 

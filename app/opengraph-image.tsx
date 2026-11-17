@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/server';
 
 export const runtime = 'edge';
 export const alt =
-  'CheckMyVan — Digital PDF Reports for vans, campervans and motorhomes';
+  'VanCheckers — Digital PDF Reports for vans, campervans and motorhomes';
 export const size = {
   width: 1200,
   height: 630,

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
-    'Terms and conditions for CheckMyVan Digital PDF Reports for vans, campervans, and motorhomes.',
+    'Terms and conditions for VanCheckers Digital PDF Reports for vans, campervans, and motorhomes.',
   alternates: { canonical: '/terms-of-service' },
   robots: { index: true, follow: true },
 };
@@ -19,7 +19,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold font-display text-navy mb-3">1. About These Terms</h2>
             <p>
-              These terms govern your use of CheckMyVan&apos;s website and Digital PDF
+              These terms govern your use of VanCheckers&apos; website and Digital PDF
               Report products for vans, campervans, and motorhomes. By ordering or
               using our website, you agree to these terms.
             </p>
@@ -28,7 +28,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold font-display text-navy mb-3">2. Our Services</h2>
             <p>
-              CheckMyVan provides Digital PDF Reports covering topics for vans,
+              VanCheckers provides Digital PDF Reports covering topics for vans,
               campervans, and motorhomes. Our products are digital reports only and
               do not include a physical inspection, technician visit, testing, or
               diagnostic scan of a vehicle.
@@ -38,7 +38,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold font-display text-navy mb-3">3. What We Are Not</h2>
             <p>
-              CheckMyVan is not a vehicle dealer, repair shop, or warranty provider.
+              VanCheckers is not a vehicle dealer, repair shop, or warranty provider.
               Our reports are informational and do not assess a vehicle&apos;s actual
               or current condition, performance, or roadworthiness. They are not a
               substitute for an independent physical inspection.
@@ -66,7 +66,7 @@ export default function TermsOfServicePage() {
             <h2 className="text-xl font-bold font-display text-navy mb-3">6. Vehicle Information</h2>
             <p>
               You are responsible for providing accurate vehicle details required
-              for your report order. CheckMyVan does not access, test, or physically
+              for your report order. VanCheckers does not access, test, or physically
               inspect the vehicle.
             </p>
           </section>
@@ -84,7 +84,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="text-xl font-bold font-display text-navy mb-3">8. Liability</h2>
             <p>
-              CheckMyVan is not liable for decisions you make based on report
+              VanCheckers is not liable for decisions you make based on report
               information, including purchase, negotiation, or repair decisions.
               Nothing in these terms limits liability where it cannot legally be
               excluded. Otherwise, our liability is limited to the fee paid for the
@@ -96,7 +96,7 @@ export default function TermsOfServicePage() {
             <h2 className="text-xl font-bold font-display text-navy mb-3">9. Intellectual Property</h2>
             <p>
               All content on this website, including text, images, logos, and design, is the
-              property of CheckMyVan. You may not reproduce or distribute our content without
+              property of VanCheckers. You may not reproduce or distribute our content without
               written permission.
             </p>
           </section>

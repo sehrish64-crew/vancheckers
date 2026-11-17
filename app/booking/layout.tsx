@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Order a Digital PDF Vehicle Report — CheckMyVan',
+  title: 'Order a Digital PDF Vehicle Report — VanCheckers',
   description:
     'Order a Digital PDF Report for your van, campervan, or motorhome. Enter your vehicle details and complete your order online. No physical inspection included.',
   alternates: { canonical: '/booking' },
   openGraph: {
-    title: 'Order a Digital PDF Vehicle Report | CheckMyVan',
+    title: 'Order a Digital PDF Vehicle Report | VanCheckers',
     description:
       'Choose a Digital PDF Report, enter your vehicle details, and complete your order online. Physical inspection is not included.',
-    url: 'https://checkmyvan.com/booking',
+    url: 'https://vancheckers.com/booking',
     images: ['/opengraph-image'],
   },
 };

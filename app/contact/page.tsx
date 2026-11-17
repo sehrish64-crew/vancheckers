@@ -23,9 +23,9 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'info@checkmyvan.com',
+    value: 'info@vancheckers.com',
     subtitle: 'We reply within 24 hours',
-    href: 'mailto:info@checkmyvan.com',
+    href: 'mailto:info@vancheckers.com',
   },
   {
     icon: Clock,
@@ -310,12 +310,12 @@ export default function ContactPage() {
                   is sent by email within 1 hour of ordering.
                 </p>
                 <p className="mt-4 rounded-xl border border-primary/20 bg-primary/10 p-4 text-sm leading-relaxed text-white/80">
-                  CheckMyVan provides digital reports only. We do not offer
+                  VanCheckers provides digital reports only. We do not offer
                   physical inspections, vehicle testing, or technician visits.
                 </p>
                 <div className="mt-5 flex items-center gap-3 border-t border-white/10 pt-5 text-sm text-white/70">
                   <Clock className="h-4 w-4 text-primary" />
-                  <span>Questions? Email info@checkmyvan.com</span>
+                  <span>Questions? Email info@vancheckers.com</span>
                 </div>
               </div>
             </Reveal>

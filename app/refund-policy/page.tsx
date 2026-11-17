@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Refund Policy',
   description:
-    'Cancellation and refund information for CheckMyVan Digital PDF Report orders.',
+    'Cancellation and refund information for VanCheckers Digital PDF Report orders.',
   alternates: { canonical: '/refund-policy' },
   robots: { index: true, follow: true },
 };
@@ -28,7 +28,7 @@ export default function RefundPolicyPage() {
             <h2 className="text-xl font-bold font-display text-navy mb-3">2. Cancellation by Us</h2>
             <p>
               If we are unable to deliver your Digital PDF Report, contact us at
-              info@checkmyvan.com so we can resolve the order with you.
+              info@vancheckers.com so we can resolve the order with you.
             </p>
           </section>
 
@@ -43,7 +43,7 @@ export default function RefundPolicyPage() {
           <section>
             <h2 className="text-xl font-bold font-display text-navy mb-3">4. How to Request a Refund</h2>
             <p>
-              To request a refund, contact us at info@checkmyvan.com or call
+              To request a refund, contact us at info@vancheckers.com or call
               020 7946 0958 during business hours. Approved refunds are processed within 5–7
               working days to the original payment method.
             </p>
