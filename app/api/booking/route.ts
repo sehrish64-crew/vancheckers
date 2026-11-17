@@ -102,23 +102,23 @@ export async function POST(request: Request) {
       `,
     });
 
-    await transporter.sendMail({
-      from: smtpUser,
-      to: data.email,
-      replyTo: recipient,
-      subject: 'We received your vehicle check request',
-      text: [
-        `Hi ${data.clientName},`,
-        '',
-        'Thanks for contacting VanCheckers. We have received your vehicle details and will review them shortly.',
-        '',
-        `Package: ${data.packageType.charAt(0).toUpperCase()}${data.packageType.slice(1)}`,
-        `Vehicle Type: ${data.vehicleType}`,
-        `VIN/Plate Number: ${vinPlate}`,
-        '',
-        'If you did not submit this request, please ignore this email.',
-      ].join('\n'),
-    });
+    // await transporter.sendMail({
+    //   from: smtpUser,
+    //   to: data.email,
+    //   replyTo: recipient,
+    //   subject: 'We received your vehicle check request',
+    //   text: [
+    //     `Hi ${data.clientName},`,
+    //     '',
+    //     'Thanks for contacting VanCheckers. We have received your vehicle details and will review them shortly.',
+    //     '',
+    //     `Package: ${data.packageType.charAt(0).toUpperCase()}${data.packageType.slice(1)}`,
+    //     `Vehicle Type: ${data.vehicleType}`,
+    //     `VIN/Plate Number: ${vinPlate}`,
+    //     '',
+    //     'If you did not submit this request, please ignore this email.',
+    //   ].join('\n'),
+    // });
 
     return NextResponse.json({ ok: true, emailSent: true });
   } catch (error) {

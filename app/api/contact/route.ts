@@ -209,41 +209,41 @@ export async function POST(request: Request) {
     );
   }
 
-  try {
-    const confirmationResult = await transporter.sendMail({
-      from: smtpUser,
-      to: submission.email,
-      replyTo: recipient,
-      subject: 'We received your VanCheckers enquiry',
-      text: [
-        `Hello ${submission.name},`,
-        '',
-        `Thanks for contacting VanCheckers. We received your enquiry about "${submission.subject}" and will get back to you within 24 hours.`,
-        '',
-        'Your message:',
-        submission.message,
-        '',
-        'If you did not send this enquiry, you can ignore this email.',
-      ].join('\n'),
-    });
+  // try {
+  //   const confirmationResult = await transporter.sendMail({
+  //     from: smtpUser,
+  //     to: submission.email,
+  //     replyTo: recipient,
+  //     subject: 'We received your VanCheckers enquiry',
+  //     text: [
+  //       `Hello ${submission.name},`,
+  //       '',
+  //       `Thanks for contacting VanCheckers. We received your enquiry about "${submission.subject}" and will get back to you within 24 hours.`,
+  //       '',
+  //       'Your message:',
+  //       submission.message,
+  //       '',
+  //       'If you did not send this enquiry, you can ignore this email.',
+  //     ].join('\n'),
+  //   });
 
-    confirmationSent = confirmationResult.accepted.some((address) => {
-      return address.toLowerCase() === submission.email.toLowerCase();
-    });
+  //   confirmationSent = confirmationResult.accepted.some((address) => {
+  //     return address.toLowerCase() === submission.email.toLowerCase();
+  //   });
 
-    if (!confirmationSent) {
-      console.error(
-        `Contact submission${submissionId ? ` ${submissionId}` : ''} was not accepted by SMTP for its confirmation recipient.`
-      );
-    }
-  } catch (emailError) {
-    const message =
-      emailError instanceof Error ? emailError.message : 'Unknown email error';
-    console.error(
-      `Contact submission${submissionId ? ` ${submissionId}` : ''} confirmation email delivery failed:`,
-      message
-    );
-  }
+  //   if (!confirmationSent) {
+  //     console.error(
+  //       `Contact submission${submissionId ? ` ${submissionId}` : ''} was not accepted by SMTP for its confirmation recipient.`
+  //     );
+  //   }
+  // } catch (emailError) {
+  //   const message =
+  //     emailError instanceof Error ? emailError.message : 'Unknown email error';
+  //   console.error(
+  //     `Contact submission${submissionId ? ` ${submissionId}` : ''} confirmation email delivery failed:`,
+  //     message
+  //   );
+  // }
 
   if (emailSent && database && submissionId !== undefined) {
     try {
