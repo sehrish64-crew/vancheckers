@@ -94,8 +94,8 @@ export default function OpenGraphImage() {
               </svg>
             </div>
             <div style={{ display: 'flex', fontSize: 33, fontWeight: 800, letterSpacing: -1.5 }}>
-              <span>CheckMy</span>
-              <span style={{ color: '#38bdf8' }}>Van</span>
+              <span>Van</span>
+              <span style={{ color: '#38bdf8' }}>Checkers</span>
             </div>
           </div>
           <div
